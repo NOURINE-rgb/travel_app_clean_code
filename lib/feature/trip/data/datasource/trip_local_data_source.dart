@@ -15,6 +15,8 @@ class TripLocalDataSourceImpl implements TripLocalDataSource {
 
   @override
   void addTrip({required TripModel trip}) {
+    print(
+        "hi i think it's added succcessfully im in ht edata source *********");
     tripBox.add(trip);
   }
 
